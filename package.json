@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio-09-sept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pa-suarezm/ejercicio-09-sept.git"
+  },
+  "author": "Pablo Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pa-suarezm/ejercicio-09-sept/issues"
+  },
+  "homepage": "https://github.com/pa-suarezm/ejercicio-09-sept#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
