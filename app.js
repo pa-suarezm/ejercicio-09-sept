@@ -39,7 +39,12 @@ function putCountry(nombre, datosJSON, cllBack){
 
 function deleteCountry(nombre, cllBack){
     conn.then((client) => {
-        client.db("poblacioens").collection("paises").deleteOne({country: `${nombre}`}, cllBack());
+        client.db("poblaciones").collection("paises").deleteOne({country: `${nombre}`}, (err, obj) => {
+            if(err)
+                throw err;
+            console.log(`Deleted ${nombre}`);
+            cllBack();
+        });
     });
 }
 
