@@ -6,7 +6,7 @@
 <p>Rutas:</p>
 <ul>
     <li> http://localhost:8080/countries GET ALL, POST (requiere un body de json)</li>
-    <li> http://localhost:8080/countries/:nombre GET, PUT, DELETE pais con nombre = :nombre </li>
+    <li> http://localhost:8080/countries/:nombre GET, PUT (requiere un body de json), DELETE pais con nombre = :nombre </li>
 </ul>
 <br>
 <p>Ejemplo de body para hacer POST:</p>
